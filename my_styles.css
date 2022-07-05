@@ -1,0 +1,49 @@
+.main {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    align-content: center;
+    padding: 32px;
+
+}
+
+.images img {
+    height: 50px;
+    /* width: 150px;  */
+}
+
+.background {
+    background-image: url("images/back01.jpg");
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 32px;
+    list-style-type: none;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+
+
+}
+
+
+
+.menu a {
+    text-decoration: none;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    padding: 32px;
+    background-color: aquamarine;
+}
+
+footer {
+    text-align: center;
+    background-color: aqua;
+}
